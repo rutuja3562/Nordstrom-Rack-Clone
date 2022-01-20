@@ -11,7 +11,7 @@ function signin(event) {
     if (regdusers[i].username == name && regdusers[i].userpass == pass) {
       // console.log("hii")
       // alert("Login Success")
-      window.location.href = "laning_page2.html";
+      window.location.href = "index.html";
     }
   }
 }
