@@ -69,39 +69,39 @@ function displayData(womensData) {
   });
 }
 
-womensData.map(function (data) {
-  var div = document.createElement("div");
+// womensData.map(function (data) {
+//   var div = document.createElement("div");
 
-  var image = document.createElement("img");
-  image.setAttribute("src", data.image_url);
+//   var image = document.createElement("img");
+//   image.setAttribute("src", data.image_url);
 
-  var brand = document.createElement("h3");
-  brand.textContent = data.brand;
+//   var brand = document.createElement("h3");
+//   brand.textContent = data.brand;
 
-  var name = document.createElement("p");
-  name.textContent = data.name;
+//   var name = document.createElement("p");
+//   name.textContent = data.name;
 
-  var div1 = document.createElement("div");
-  div1.setAttribute("id", "flex");
+//   var div1 = document.createElement("div");
+//   div1.setAttribute("id", "flex");
 
-  var price = document.createElement("p");
-  price.textContent = data.price;
+//   var price = document.createElement("p");
+//   price.textContent = data.price;
 
-  var price2 = document.createElement("p");
-  price2.textContent = data.strikedoffprice;
+//   var price2 = document.createElement("p");
+//   price2.textContent = data.strikedoffprice;
 
-  var btn = document.createElement("button");
-  btn.textContent = "Add to Cart";
-  btn.addEventListener("click", function () {
-    addToCart(data);
-  });
+//   var btn = document.createElement("button");
+//   btn.textContent = "Add to Cart";
+//   btn.addEventListener("click", function () {
+//     addToCart(data);
+//   });
 
-  div1.append(price, price2);
+//   div1.append(price, price2);
 
-  div.append(image, brand, name, div1, btn);
+//   div.append(image, brand, name, div1, btn);
 
-  document.querySelector("#wcontainer").append(div);
-});
+//   document.querySelector("#wcontainer").append(div);
+// });
 
 function addToCart(data) {
   console.log(data);
