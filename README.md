@@ -3,7 +3,7 @@ Nordstrom Rack offers branded clothing and accessories for women, men, and kids 
 
 In this project I have cloned the Nordstrome Rack website and given some of the functionality as it is present in the original website.
 
-### <a href="https://rutuja-patil.vercel.app/" target="_blank"> Nordstrom Rack</a>
+### <a target="_blank" href="https://rutuja-patil.vercel.app/" > Nordstrom Rack</a>
 
 ### Tech Stacks :
 HTML | CSS | JAVASCRIPT
