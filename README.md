@@ -15,10 +15,15 @@ In this project I have cloned the Nordstrome Rack website and given some of the 
 #
 ### Features & Pages
 #
-- Login and Sign up.
-- Homepage - view all products & categories.
-- Product page - sort product, add to cart etc.
-- Payment.
+- You will be able to create your account using login and signup option.
+
+- You can choose a product which you want to buy and add to cart section.
+
+- One can Sort and Filter the product according to the prices and categories of different products.
+
+- User can also select and remove items from cart section and make payment through card.
+
+- All the data is stored in the localStorage of the User.t.
 
 #
 ### Screenshots:
