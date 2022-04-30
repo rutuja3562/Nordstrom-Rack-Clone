@@ -62,5 +62,5 @@ Users can log in into by clicking the login button and fill in the right credent
 
 #
 ### Project By:
-## <a target="_blank" href="https://github.com/rutuja3562" > Rutuja3562</a>
+#### <a target="_blank" href="https://github.com/rutuja3562" >@Rutuja3562</a>
 
